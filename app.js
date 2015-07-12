@@ -19,7 +19,7 @@ var app = express();
 app.use(express.static(__dirname + '/public'));
 
 // get the app environment from Cloud Foundry
-var appEnv = cfenv.getAppEnv();
+var appEnv = cfenv.getAppEnv(); 
 
 // Manabs code starts from here
 var https = require('https');
